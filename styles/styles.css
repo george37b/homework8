@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+body {
+  font-family: "Inter", sans-serif;
+}
+.header-content {
+  background: #f9f8f7;
+  display: flex;
+  justify-content: center;
+  padding: 48px;
+}
+.target {
+  color: #8d8f90;
+}
+.text {
+  display: flex;
+  gap: 93px;
+  padding-top: 3px;
+  color: #212628;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+}
+.header-text img {
+  width: 215px;
+  height: 20px;
+}
+.header-text {
+  display: flex;
+  flex-direction: column;
+}
+main {
+  background: #f9f8f7;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-content {
+  width: 552px;
+  height: 832px;
+  padding: 41px 64px 10px;
+  border-radius: 30px;
+  background: #fff;
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
+}
+.form-header {
+  display: flex;
+  justify-content: space-between;
+}
+.premium {
+  color: var(--Header-text, #212628);
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 48px;
+}
+.month199 {
+  color: var(--Header-text, #212628);
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+}
+.month {
+  color: var(--Header-text, #212628);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 25px;
+}
+.text-inst {
+  color: #7a7d7e;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 23px;
+}
+.form {
+  margin-top: 43px;
+  display: flex;
+  flex-direction: column;
+}
+.input {
+  width: 424px;
+  height: 54px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  background: #fff;
+  margin-bottom: 27px;
+  padding-left: 24px;
+  outline: none;
+}
+.submit-btn {
+  width: 370px;
+  height: 64px;
+  border-radius: 32px;
+  background: linear-gradient(
+    270deg,
+    #c23584 0%,
+    #e2306c 24.48%,
+    #f77736 83.85%,
+    #fa963e 100%
+  );
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px; /* 133.333% */
+  letter-spacing: 0.027px;
+  cursor: pointer;
+  margin: auto;
+}
+.submit-btn span {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.027px;
+  text-decoration: line-through;
+}
