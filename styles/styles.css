@@ -38,7 +38,7 @@ main {
 }
 .main-content {
   width: 552px;
-  height: 832px;
+  height: 840px;
   padding: 41px 64px 10px;
   border-radius: 30px;
   background: #fff;
@@ -71,7 +71,6 @@ main {
 .text-inst {
   color: #7a7d7e;
   font-size: 18px;
-  font-style: normal;
   font-weight: 600;
   line-height: 23px;
 }
@@ -89,6 +88,32 @@ main {
   margin-bottom: 27px;
   padding-left: 24px;
   outline: none;
+  color: #212628;
+  font-size: 18px;
+  opacity: 0.5;
+  font-weight: 400;
+  line-height: 32px; /* 177.778% */
+}
+.card-number {
+  color: #212628;
+  font-size: 18px;
+  opacity: 0.5;
+  font-weight: 400;
+  line-height: 32px; /* 177.778% */
+  width: 424px;
+  height: 54px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  background: #fff;
+  margin-bottom: 27px;
+  padding-left: 24px;
+  outline: none;
+  position: relative;
+}
+.card {
+  position: absolute;
+  bottom: 373px;
+  right: 733px;
 }
 .submit-btn {
   width: 370px;
@@ -118,4 +143,89 @@ main {
   line-height: 24px;
   letter-spacing: 0.027px;
   text-decoration: line-through;
+}
+.date {
+  width: 282px;
+  height: 54px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  background: #fff;
+  margin-bottom: 27px;
+  padding-left: 24px;
+  outline: none;
+  display: flex;
+  color: #212628;
+  font-size: 18px;
+  opacity: 0.5;
+  font-weight: 400;
+  line-height: 32px; /* 177.778% */
+}
+.ccv {
+  width: 120px;
+  height: 54px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  background: #fff;
+  margin-bottom: 27px;
+  padding-left: 24px;
+  outline: none;
+  color: #212628;
+  font-size: 18px;
+  opacity: 0.5;
+  font-weight: 400;
+  line-height: 32px; /* 177.778% */
+}
+.date-ccv {
+  display: flex;
+  gap: 22px;
+}
+.Country {
+  width: 282px;
+  height: 54px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  background: #fff;
+  color: #999999;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px; /* 137.5% */
+  margin-bottom: 27px;
+  outline: none;
+  display: flex;
+  padding-left: 25px;
+}
+.Terms {
+  color: rgba(225, 48, 108, 0.8);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  text-decoration-line: underline;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.Terms a {
+  color: rgba(225, 48, 108, 0.8);
+}
+p {
+  color: rgba(33, 38, 40, 0.5);
+  margin: 28px 0px 29px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  margin-top: 5px;
+}
+.coupon {
+  color: #e1306c;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 32px;
+  display: flex;
+  height: 64px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
 }
